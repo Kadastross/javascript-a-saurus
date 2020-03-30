@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Preface</title>
+	<script type="text/javascript" src="sites.js"></script>
+	<link type="text/css" rel="stylesheet" href="Sites.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="../Pics/Logo.png" type="image/png" sizes="any">
+<style>
+body{
+	background-color: white;
+}
+#of{
+	position:absolute;
+	font-family: Blackadder ITC;
+	z-index: 5;
+	color: #F5FFFA;
+	font-size: 80px;
+	margin-left: 45%;
+	top: 300px;
+}
+#the{
+	position:fixed;
+	font-family: Blackadder ITC;
+	z-index: 5;
+	color: #a5FfFf;
+	font-size: 80px;
+	margin-left: 10px;
+	top: 15px;
+	height: 30px;
+	width: 50px;
+	border: 2px solid #a1a1a1;
+	border-radius: 10%;
+	padding: 0px;
+}
+
+#the:hover {
+	background-color: rgba(120,120,120,0.5);
+}
+#sidemenu{
+	border-radius: 2px;
+	position: fixed;
+	margin-left: 0px;
+	float: left;
+	height: 100%;
+	width: 100%;
+	z-index: 200;
+	background-color: rgba(0,0,0,0.8);
+	display: none;
+	margin-top: -60px;
+	font-size: 1.3rem;
+}
+.small{
+	height: 100px;
+	width: 20%;
+	position: relative;
+	color: white;
+	font-size: +20;
+	left: 100px;
+	margin-left: 35px;
+	margin-top: 20px;
+	top: 20px;
+	display: inline-block;
+}
+
+@keyframes sidemenu{
+	from{top: -100%;}
+	to{top: 60px;}
+}
+#x1{
+	margin-top: 15px; 
+	-webkit-transform: rotate(45deg);
+	color: #a1a1a1;
+}
+#x2{
+	margin-top: -43px; 
+	-webkit-transform: rotate(135deg);
+	color: #a1a1a1;
+}
+#sidemenu ol li{
+	border-bottom: 2px solid #aaa;
+	font-size: +25;
+	margin-top: 20px;
+	margin-left: -35px;
+	padding-bottom: 20px;
+	color: #555;
+}
+#whitetop{
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	height: 60px;
+	margin-top: -60px;
+	z-index: 6;
+	box-shadow: 10px 10px 50px gray;
+}
+#whitetop ul{
+	margin-top: -80px;
+}
+#jeans{
+	position: absolute;
+	height: 168px;
+	width: 100%;
+	z-index: 0;
+	margin-top: 410px;
+}
+#whitetop ul{
+	list-style-type: none;
+	position: fixed;
+}
+#whitetop ul li{
+	position: absolute;
+	display: inline;
+}
+#menu{
+	margin-left: 900px;
+}
+#about{
+	margin-left: 1000px;
+}
+#contacts{
+	margin-left: 1100px;
+}
+.menu{
+	height: 60px;
+	width: 90px;
+	margin-top: 80px;
+}
+.menu:hover{
+	background-color: #eee;
+}
+#whitetop ul a{
+	text-decoration: none;
+	color: black;
+}
+#user{
+	float: left;
+	margin-left: 120px;
+	margin-top: 20px;
+	font-size: 18px;
+	color: #777;
+}
+p{
+	font-family: 'q_serif',Georgia,Times,"Times New Roman",serif; 
+	color: #333; 
+	font-size: 1.3rem; 
+	line-height: 20px; 
+	width: 80%; 
+	word-wrap: break-word;
+	text-align: justify;
+	margin-left: 130px;
+}
+</style>
+</head>
+<body>
+<div>	
+	<div id="whitetop" onmouseover="dropup()">
+		<a href="#" onmouseup="sidemenu()">
+		<div id="the">
+			<hr width=30px color="#a1a1a1" style="margin-top: 5px;"><br>
+			<hr width=30px color="#a1a1a1" style="margin-top: -130px;"><br>
+			<hr width=30px color="#a1a1a1" style="margin-top: -153px;">
+		</div>
+		</a> 
+		<div id="user" >
+			<p class="user" onclick="username()"> hhh</p>
+		</div>
+	
+		<ul>
+			<a href="../Home Page.html"><li id="menu" class="menu"> <br>&emsp;&nbsp;Home</li></a>
+			<a href="About Us.html"><li id="about" class="menu"> <br>&emsp;&nbsp;About</li></a>
+			<a href="About Us.html"><li id="contacts" class="menu"><br>&emsp;&nbsp;Contacts</li></a>
+		</ul>
+	</div>
+	<div id="sidemenu">
+		<a href="#" onmouseup="sidemenudrop(), slide()">
+			<div id="the">
+			<hr size="2px" noshade width="30px" id="x1">
+			<hr size="2px" noshade width=30px id="x2">
+		</a>
+	</div>
+		<a href="Acknowledgements.html" target="_blank"><div class="small"> <font color="#eee000">Acknowledgemets</font> <br> <hr>I have no words to express my indebtedness to my ins ..... </div>
+		<a href="Preface.html" target="_blank"><div class="small sk2"> <font color="#eee000">Preface </font><br> <hr>I feel proud to present this wonderful webs ..... </div>
+		<a href="Paris.htm" target="_blank"><div class="small"> <font color="#eee000">Paris </font><br> <hr>Paris is the capital and the most populous city of Fr....</div></a>
+		<a href="Spain.htm" target="_blank"><div class="small sk2"> <font color="#eee000">Spain </font><br> <hr>The grandeur of a caliph's palace, sybaritic..... </div></a>
+		<a href="Sydney.htm" target="_blank"><div class="small"> <font color="#eee000">Sydney </font><br> <hr>Sydney is the state capital of New South Wales and..... </div></a>
+		<a href="Switzerland.htm" target="_blank"><div class="small sk1"> <font color="#eee000">Switzerland </font><br> <hr>"Switzerland is a land of charming stereotypes..... </div></a>
+		<a href="Kerala.htm" target="_blank"><div class="small"> <font color="#eee000">Kerala </font><br> <hr>Kerala, historically known as Keralam, is an Indian..... </div></a>
+		<a href="Singapore.htm" target="_blank"><div class="small sk1"> <font color="#eee000">Singapore </font><br> <hr>Singapore has been described as a playground for the rich..... </div></a>
+		<a href="Conclusion.htm" target="_blank"><div class="small"> <font color="#eee000">Conclusion</font><br> <hr>I hope the project might have reached your satisfactory.....</div></a>
+</div>
+<img src="../Pics/Logo.png" style="border-radius: 50%; height: 100px; width: 100px; margin-top: 20px; border: 2px solid #aaa; margin-left: 46%;"/>
+<center><h1 style="font-family: Helvetica; color: #333; font-size: 40px;">Preface</h1></center>
+<center><h1 style="font-family: Helvetica; color: #aaa; font-size: 30px;">The Travelogue</h1></center>
+<hr width=80%>
+<p>
+I feel proud to present this wonderful website on the given topic-<b> A Travelogue</b>. The overall design and HTML coding of different facilities.
+ provided on the pages are designed as per certified guidelines. The concept used in making of this web page design is mostly limited to the syllabus of class 10th.</p>
+<p>Different types of codings and formatting tags has been widely used in this website to present the information in attractive way. Various internal as well as external links have
+provided in the web page.</p>
+<p>The time and effort given in making of this wonderful project can be seen in the way of presenting this website. The website has been kept simplified and excess of information has been 
+given for the required topics.</p>
+ <p>I hope this project may reach your satisfactory.</p>
+<p>Thank you.</p><br><br><br><br>
+</body>
+</html>
+
+
